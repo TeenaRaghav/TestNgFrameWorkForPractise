@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "Automation">
+<parameter name="url" value="https://login.salesforce.com/"></parameter>
+<parameter name = "username" value="teena@raghav.com"></parameter>
+<parameter name="password" value="pritishtina@1"></parameter>
+<parameter name = "invalidusername" value="teena1@raghav.com"></parameter>
+
+	
+<test name ="Login">
+	<classes>
+		<class name="com.training.testng.LoginTest"></class>
+	</classes>
+</test>
+	
+	
+</suite>
